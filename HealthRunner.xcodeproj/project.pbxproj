@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551C715A0B3FDE5A4E66E9D2 /* Pods_HealthRunner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F33FA80A11803B14D0E1E3 /* Pods_HealthRunner.framework */; };
+		9F2E06181D17F29E0044E3CD /* customText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E06171D17F29E0044E3CD /* customText.swift */; };
+		9F360C551D16D3AE00EF591E /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6449EB1D16D10700B31FBE /* Charts.framework */; };
+		9F360C681D16D72400EF591E /* charttViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F360C671D16D72400EF591E /* charttViewController.swift */; };
+		9F360C711D16EBDF00EF591E /* healthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F360C701D16EBDE00EF591E /* healthTableViewController.swift */; };
+		9F360C731D16F10400EF591E /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F360C721D16F10400EF591E /* cancel.png */; };
+		9F4288511D16F77A005E7206 /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F4288501D16F77A005E7206 /* Spring.framework */; };
+		9FD74DFE1D16B99000935754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD74DFD1D16B99000935754 /* AppDelegate.swift */; };
+		9FD74E001D16B99000935754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD74DFF1D16B99000935754 /* ViewController.swift */; };
+		9FD74E031D16B99000935754 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD74E011D16B99000935754 /* Main.storyboard */; };
+		9FD74E051D16B99000935754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD74E041D16B99000935754 /* Assets.xcassets */; };
+		9FD74E081D16B99000935754 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD74E061D16B99000935754 /* LaunchScreen.storyboard */; };
+		9FD74E101D16CAA300935754 /* heart_health.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD74E0F1D16CAA300935754 /* heart_health.png */; };
+		9FD74E121D16CB5300935754 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD74E111D16CB5300935754 /* back.png */; };
+		9FD74E161D16CDFA00935754 /* bar_chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD74E151D16CDFA00935754 /* bar_chart.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F360C5D1D16D4C300EF591E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F360C561D16D4C200EF591E /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		9F360C5F1D16D4C300EF591E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F360C561D16D4C200EF591E /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		9F360C611D16D4C300EF591E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F360C561D16D4C200EF591E /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		9F360C631D16D4C300EF591E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F360C561D16D4C200EF591E /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		9F360C651D16D4DC00EF591E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F360C561D16D4C200EF591E /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		239279D7BBF6F9D7FC3FE457 /* Pods-HealthRunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthRunner.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthRunner/Pods-HealthRunner.release.xcconfig"; sourceTree = "<group>"; };
+		9F2E06171D17F29E0044E3CD /* customText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customText.swift; sourceTree = "<group>"; };
+		9F360C561D16D4C200EF591E /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../Downloads/Charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		9F360C671D16D72400EF591E /* charttViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = charttViewController.swift; sourceTree = "<group>"; };
+		9F360C701D16EBDE00EF591E /* healthTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = healthTableViewController.swift; sourceTree = "<group>"; };
+		9F360C721D16F10400EF591E /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		9F4288501D16F77A005E7206 /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = "../../../Library/Developer/Xcode/DerivedData/HealthRunner-bkghlqcwarqxjpajkpotnqncyhkb/Build/Products/Debug-iphoneos/Spring.framework"; sourceTree = "<group>"; };
+		9F6449EB1D16D10700B31FBE /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../Library/Developer/Xcode/DerivedData/HealthRunner-bkghlqcwarqxjpajkpotnqncyhkb/Build/Products/Debug-iphoneos/Charts.framework"; sourceTree = "<group>"; };
+		9F6449ED1D16D15300B31FBE /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../Library/Developer/Xcode/DerivedData/HealthRunner-bkghlqcwarqxjpajkpotnqncyhkb/Build/Products/Debug-iphoneos/RealmSwift.framework"; sourceTree = "<group>"; };
+		9F6449EF1D16D15600B31FBE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../Library/Developer/Xcode/DerivedData/HealthRunner-bkghlqcwarqxjpajkpotnqncyhkb/Build/Products/Debug-iphoneos/Realm.framework"; sourceTree = "<group>"; };
+		9FD74DFA1D16B99000935754 /* HealthRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD74DFD1D16B99000935754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FD74DFF1D16B99000935754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FD74E021D16B99000935754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FD74E041D16B99000935754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FD74E071D16B99000935754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FD74E091D16B99000935754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD74E0F1D16CAA300935754 /* heart_health.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_health.png; sourceTree = "<group>"; };
+		9FD74E111D16CB5300935754 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		9FD74E151D16CDFA00935754 /* bar_chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_chart.png; sourceTree = "<group>"; };
+		D557C677BE23F3E62CE67324 /* Pods-HealthRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthRunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthRunner/Pods-HealthRunner.debug.xcconfig"; sourceTree = "<group>"; };
+		F7F33FA80A11803B14D0E1E3 /* Pods_HealthRunner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthRunner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FD74DF71D16B99000935754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4288511D16F77A005E7206 /* Spring.framework in Frameworks */,
+				9F360C551D16D3AE00EF591E /* Charts.framework in Frameworks */,
+				551C715A0B3FDE5A4E66E9D2 /* Pods_HealthRunner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F586A67525EC903330ABD4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D557C677BE23F3E62CE67324 /* Pods-HealthRunner.debug.xcconfig */,
+				239279D7BBF6F9D7FC3FE457 /* Pods-HealthRunner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F360C571D16D4C200EF591E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F360C5E1D16D4C300EF591E /* Charts.framework */,
+				9F360C601D16D4C300EF591E /* Charts.framework */,
+				9F360C621D16D4C300EF591E /* Charts.framework */,
+				9F360C641D16D4C300EF591E /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD74DF11D16B99000935754 = {
+			isa = PBXGroup;
+			children = (
+				9FD74DFC1D16B99000935754 /* HealthRunner */,
+				9FD74DFB1D16B99000935754 /* Products */,
+				0F586A67525EC903330ABD4F /* Pods */,
+				D83188440B8A397B85BAF381 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FD74DFB1D16B99000935754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FD74DFA1D16B99000935754 /* HealthRunner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FD74DFC1D16B99000935754 /* HealthRunner */ = {
+			isa = PBXGroup;
+			children = (
+				9FD74DFD1D16B99000935754 /* AppDelegate.swift */,
+				9FD74DFF1D16B99000935754 /* ViewController.swift */,
+				9FD74E011D16B99000935754 /* Main.storyboard */,
+				9F360C671D16D72400EF591E /* charttViewController.swift */,
+				9F360C701D16EBDE00EF591E /* healthTableViewController.swift */,
+				9F2E06171D17F29E0044E3CD /* customText.swift */,
+				9FD74E041D16B99000935754 /* Assets.xcassets */,
+				9F360C561D16D4C200EF591E /* Charts.xcodeproj */,
+				9FD74E0F1D16CAA300935754 /* heart_health.png */,
+				9FD74E111D16CB5300935754 /* back.png */,
+				9F360C721D16F10400EF591E /* cancel.png */,
+				9FD74E151D16CDFA00935754 /* bar_chart.png */,
+				9FD74E061D16B99000935754 /* LaunchScreen.storyboard */,
+				9FD74E091D16B99000935754 /* Info.plist */,
+			);
+			path = HealthRunner;
+			sourceTree = "<group>";
+		};
+		D83188440B8A397B85BAF381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F4288501D16F77A005E7206 /* Spring.framework */,
+				9F6449EF1D16D15600B31FBE /* Realm.framework */,
+				9F6449ED1D16D15300B31FBE /* RealmSwift.framework */,
+				9F6449EB1D16D10700B31FBE /* Charts.framework */,
+				F7F33FA80A11803B14D0E1E3 /* Pods_HealthRunner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FD74DF91D16B99000935754 /* HealthRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD74E0C1D16B99000935754 /* Build configuration list for PBXNativeTarget "HealthRunner" */;
+			buildPhases = (
+				015D88FB6C235172DB5E0AC0 /* Check Pods Manifest.lock */,
+				9FD74DF61D16B99000935754 /* Sources */,
+				9FD74DF71D16B99000935754 /* Frameworks */,
+				9FD74DF81D16B99000935754 /* Resources */,
+				BF0F77AF443FE5164CF44EA6 /* Embed Pods Frameworks */,
+				4CC9EEF7F06EF2F76CB358D2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F360C661D16D4DC00EF591E /* PBXTargetDependency */,
+			);
+			name = HealthRunner;
+			productName = HealthRunner;
+			productReference = 9FD74DFA1D16B99000935754 /* HealthRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FD74DF21D16B99000935754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "sagaya Abdulhafeez";
+				TargetAttributes = {
+					9FD74DF91D16B99000935754 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PBZ9S8GP84;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9FD74DF51D16B99000935754 /* Build configuration list for PBXProject "HealthRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FD74DF11D16B99000935754;
+			productRefGroup = 9FD74DFB1D16B99000935754 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9F360C571D16D4C200EF591E /* Products */;
+					ProjectRef = 9F360C561D16D4C200EF591E /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9FD74DF91D16B99000935754 /* HealthRunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9F360C5E1D16D4C300EF591E /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 9F360C5D1D16D4C300EF591E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F360C601D16D4C300EF591E /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 9F360C5F1D16D4C300EF591E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F360C621D16D4C300EF591E /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 9F360C611D16D4C300EF591E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F360C641D16D4C300EF591E /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 9F360C631D16D4C300EF591E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FD74DF81D16B99000935754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD74E101D16CAA300935754 /* heart_health.png in Resources */,
+				9FD74E121D16CB5300935754 /* back.png in Resources */,
+				9F360C731D16F10400EF591E /* cancel.png in Resources */,
+				9FD74E081D16B99000935754 /* LaunchScreen.storyboard in Resources */,
+				9FD74E051D16B99000935754 /* Assets.xcassets in Resources */,
+				9FD74E161D16CDFA00935754 /* bar_chart.png in Resources */,
+				9FD74E031D16B99000935754 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015D88FB6C235172DB5E0AC0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC9EEF7F06EF2F76CB358D2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthRunner/Pods-HealthRunner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0F77AF443FE5164CF44EA6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthRunner/Pods-HealthRunner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD74DF61D16B99000935754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FD74E001D16B99000935754 /* ViewController.swift in Sources */,
+				9FD74DFE1D16B99000935754 /* AppDelegate.swift in Sources */,
+				9F360C681D16D72400EF591E /* charttViewController.swift in Sources */,
+				9F360C711D16EBDF00EF591E /* healthTableViewController.swift in Sources */,
+				9F2E06181D17F29E0044E3CD /* customText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F360C661D16D4DC00EF591E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 9F360C651D16D4DC00EF591E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FD74E011D16B99000935754 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD74E021D16B99000935754 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FD74E061D16B99000935754 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FD74E071D16B99000935754 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FD74E0A1D16B99000935754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FD74E0B1D16B99000935754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FD74E0D1D16B99000935754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D557C677BE23F3E62CE67324 /* Pods-HealthRunner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loxpaa.HealthRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FD74E0E1D16B99000935754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239279D7BBF6F9D7FC3FE457 /* Pods-HealthRunner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HealthRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.loxpaa.HealthRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FD74DF51D16B99000935754 /* Build configuration list for PBXProject "HealthRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD74E0A1D16B99000935754 /* Debug */,
+				9FD74E0B1D16B99000935754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD74E0C1D16B99000935754 /* Build configuration list for PBXNativeTarget "HealthRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD74E0D1D16B99000935754 /* Debug */,
+				9FD74E0E1D16B99000935754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FD74DF21D16B99000935754 /* Project object */;
+}
